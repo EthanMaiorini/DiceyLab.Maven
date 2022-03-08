@@ -1,33 +1,33 @@
-# Kris-Tof Dice Toss
+# Kris-Tof DiceyLab.Dice Toss
 
-Create a Dice class that acts like a set of N random-tossed dies.
+Create a DiceyLab.Dice class that acts like a set of N random-tossed dies.
 
 ```java
-Dice dice = new Dice(2); // for craps
-Dice dice = new Dice(5); // for yatzee
+DiceyLab.Dice dice = new DiceyLab.Dice(2); // for craps
+DiceyLab.Dice dice = new DiceyLab.Dice(5); // for yatzee
 
 Integer toss = dice.tossAndSum();
 ```
-make a couple unit tests for the Dice class. 
+make a couple unit tests for the DiceyLab.Dice class. 
 
-Create a tracking class Bins that can be used to track these results.
+Create a tracking class DiceyLab.Bins that can be used to track these results.
 
 ```java
-Bins results = new Bins(2, 12); // for bins from 2..12
+DiceyLab.Bins results = new DiceyLab.Bins(2, 12); // for bins from 2..12
 Integer numberOfTens = results.getBin(10); // returns the number of tens in the 10 bin
 results.incrementBin(10); // should increment bin # 10
 
 ```
-make a couple unit tests for the Bins class.
+make a couple unit tests for the DiceyLab.Bins class.
 
-Create a Simulation class whose Constructor takes arguments:
+Create a DiceyLab.Simulation class whose Constructor takes arguments:
     numberOfDies to throw
     numberOfTosses to run
 
 Create a simulation where two dies are thrown one million times. Keep track of all results.
 
 ```java
-Simulation sim = new Simulation(2, 10000);
+DiceyLab.Simulation sim = new DiceyLab.Simulation(2, 10000);
 
 sim.runSimulation();
 
@@ -44,7 +44,7 @@ the results of the sim.printResults() should be an output string that looks like
 
 ```java
 ***
-Simulation of 2 dice tossed for 1000000 times.
+DiceyLab.Simulation of 2 dice tossed for 1000000 times.
 ***
 
  2 :    27917: 0.03 **
