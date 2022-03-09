@@ -34,9 +34,9 @@ private Bins bin;
             int sum =0;
             double avg = 0.0;
             String output;
-            System.out.println("***\n");
-            System.out.println(" DiceyLab.Simulation of "+this.NumDice+" dice tossed for "+this.Tosses+" times.\n");
-            System.out.println("***\n");
+            System.out.println("***");
+            System.out.println(" DiceyLab.Simulation of "+this.NumDice+" dice tossed for "+this.Tosses+" times.");
+            System.out.println("***");
             for (int x = this.NumDice; x <= bin.stop; x++) {
                 sum = this.bin.getBin(x);
                 avg =(double)sum/this.Tosses;

@@ -17,3 +17,20 @@ DiceyLab.Simulation of 2 dice tossed for 10000 times.
 12 :       296    0.03**
 
 Process finished with exit code 0
+
+***
+DiceyLab.Simulation of 2 dice tossed for 10000 times.
+***
+2 :       281    0.03**
+3 :       519    0.05*****
+4 :       830    0.08********
+5 :      1083    0.11**********
+6 :      1375    0.14*************
+7 :      1746    0.17*****************
+8 :      1382    0.14*************
+9 :      1092    0.11**********
+10 :       837    0.08********
+11 :       550    0.06*****
+12 :       305    0.03***
+
+Process finished with exit code 0
